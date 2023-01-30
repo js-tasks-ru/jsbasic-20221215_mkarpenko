@@ -6,6 +6,6 @@ function getMinMax(str) {
 
   const min = Math.min(...array);
   const max = Math.max(...array);
-  
-  return { min: min, max: max};
+
+  return { min, max};
 }
